@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Password Protected Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the password protected page</h1>
+    <p>Please enter the password to proceed:</p>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="error" style="color: red;"></p>
+    <h2> Ask Darp for password or just hack it , it is possible try it</h2>
+
+    <script>
+      function checkPassword() {
+        var password = document.getElementById("password").value;
+        if (password === "ilovep") {
+          window.location.href = "who does blogging.html";
+        } else {
+          document.getElementById("error").innerHTML = "Incorrect password. Please try again.";
+        }
+      }
+      
+    </script>
+  </body>
+</html>

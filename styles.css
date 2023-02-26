@@ -1,0 +1,122 @@
+/* body styles */
+body {
+    font-family: Balqis  ;
+    background-color: #45e48a;
+  }
+  
+  /* header styles */
+  header {
+    background-color: #e1ff00;
+    color: #000000;
+    padding: 20px;
+  }
+  .previousblogs
+  {text-align: center;}
+  .left-section{
+    text-align: center;
+  }
+  .blog{text-align: center;
+  color: #1714d7;}
+  .p{text-align: center;}
+  .left-section{
+    text-align: center;
+  }
+  .previousblogs{text-align: center;}
+  .previous{text-align: center;}
+  
+  header h1 {
+    margin: 0;
+  }
+  .blog{text-size-adjust: 60;}
+  
+  /* navigation styles */
+  nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  .container {
+    text-align: center;
+  }
+  .blog {
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* main content styles */
+  main {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    width: 30%;
+  }
+  
+  .right-section {
+    width: 70%;
+  }
+  
+  .left-section h2, .right-section h2 {
+    margin-top: 0;
+  }
+  
+  .right-section article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .right-section article h3 {
+    margin-top: 0;
+  }
+  
+  .right-section article p {
+    margin-bottom: 10px;
+  }
+  
+  .right-section article a {
+    color: #c70e0e;
+    text-decoration: none;
+    border: 1px solid #60db08;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .right-section{
+    text-align: center;
+  }
+  .left-section{
+    text-align: center;
+  }
+  
+  .right-section article a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .previousblogs {text-align: center;}
+  .previousblogs{text-align: center;}
+  .previousblogs {
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+  
+  
